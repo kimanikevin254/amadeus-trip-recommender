@@ -41,13 +41,21 @@ Once the app is created, you will be navigated to the app details page. Here, co
     git clone https://github.com/kimanikevin254/amadeus-trip-recommender.git
     ```
 
-2. Build your Docker image using the command:
+2. Rename `.env.example` to `.env`:
+
+    ```bash
+    mv .env.example .env
+    ```
+
+3. Update the placeholder values in the `.env` file with the credentials you obtained from the Amadeus developer dashboard.
+
+4. Build your Docker image using the command:
 
     ```bash
     docker build -t amadeus-trip-recommender .
     ```
 
-3. Run your application using the command:
+5. Run your application using the command:
 
     ```bash
     docker run -p 3000:3000 --env-file .env amadeus-trip-recommender
