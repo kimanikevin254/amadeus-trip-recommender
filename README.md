@@ -1,5 +1,7 @@
 # Recommending Trips with Amadeus
 
+> This repository has 2 branches: `starter-template` and `main`. The `starter-template` branch contains the code required to follow along with the article while the `main` branch contains the full project implementation.
+
 This repository showcases how to use the Trip Purpose Prediction API to determine if the trip is for work or pleasure. If the trip is for leisure, it uses the Travel Recommendations API to suggest future holidays. Otherwise, it uses the Flight Offers Search API to show flight offers.
 
 ## Built With
